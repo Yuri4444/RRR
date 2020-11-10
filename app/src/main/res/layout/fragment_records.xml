@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.RecordsFragment">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/records_dino"/>
+
+    <!--        Первый рекорд-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="@string/first_record"
+            android:layout_weight="1"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@mipmap/first_record"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+    <!--        Первый рекорд-->
+
+
+
+    <!--        Второй рекорд-->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@mipmap/second_record"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/second_record"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+    <!--        Второй рекорд-->
+
+
+
+    <!--        Третий рекорд-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="1"
+            android:src="@mipmap/third_record"/>
+        <TextView
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="@string/third_record"/>
+
+    </LinearLayout>
+    <!--        Третий рекорд-->
+
+</LinearLayout>
+
+
+</ScrollView>

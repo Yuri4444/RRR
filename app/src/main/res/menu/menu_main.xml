@@ -2,9 +2,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.webanimal.rrr.MainActivity">
-    <item
-        android:id="@+id/action_settings"
-        android:orderInCategory="100"
-        android:title="@string/action_settings"
-        app:showAsAction="never" />
+    <!--    Меню в панели-->
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="@string/tabs_all"
+            android:id="@+id/allDino"
+            android:icon="@mipmap/ic_all_dino">
+        </item>
+        <item
+            android:title="@string/tabs_plant"
+            android:id="@+id/plant"
+            android:icon="@mipmap/ic_plant">
+        </item>
+
+        <item
+            android:title="@string/tabs_earth"
+            android:id="@+id/earth"
+            android:icon="@mipmap/ic_earth">
+        </item>
+
+        <item
+            android:title="@string/tabs_records"
+            android:id="@+id/records"
+            android:icon="@mipmap/ic_record">
+        </item>
+
+        <item
+            android:title="@string/tabs_finds"
+            android:id="@+id/finds"
+            android:icon="@mipmap/ic_finds">
+        </item>
+
+    </group>
+
 </menu>
