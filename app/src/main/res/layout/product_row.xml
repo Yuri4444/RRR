@@ -30,7 +30,7 @@
             android:layout_marginLeft="4dp"
             android:layout_marginBottom="4dp"
             android:fontFamily="@font/russo_one"
-            android:textColor="#000000"
+            android:textColor="#232323"
             android:textSize="20sp"
             android:textStyle="bold" />
 

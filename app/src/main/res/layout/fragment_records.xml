@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.fragments.RecordsFragment">
+    tools:context=".ui.fragments.RecordsFragment"
+    android:background="@color/white">
 
 <LinearLayout
     android:layout_width="match_parent"
@@ -97,6 +98,13 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:text="@string/third_record"/>
+
+        <Button
+            android:id="@+id/back_to_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Вернутся назад" />
 
     </LinearLayout>
     <!--        Третий рекорд-->

@@ -19,12 +19,12 @@
 
             <!--        Мудрю заглавие-->
             <TextView
-                android:text="По умолчанию"
                 android:id="@+id/title_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/blueDark"
                 android:gravity="center"
+                android:text="По умолчанию"
                 android:textAppearance="?android:attr/textAppearanceLarge"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold" />
@@ -54,7 +54,7 @@
                 <TextView
                     android:id="@+id/trias_detail"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="85dp"
                     android:layout_margin="5dp"
                     android:layout_weight="1"
                     android:textColor="#FFFFFF" />
@@ -66,8 +66,9 @@
             <ImageView
                 android:id="@+id/trias_image"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:adjustViewBounds="true" />
+                android:layout_height="300dp"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop" />
 
             <TextView
                 android:id="@+id/trias_first_description"
