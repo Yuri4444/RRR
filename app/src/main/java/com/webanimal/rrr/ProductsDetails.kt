@@ -14,8 +14,8 @@ class ProductsDetails : AppCompatActivity() {
 
         val title = intent.getStringExtra("title")
         val photoUrl = intent.getStringExtra("photo_url")
-        title_name.text = title
 
+        title_name.text = title
         Picasso.get().load(photoUrl).into(trias_image)
 
     }

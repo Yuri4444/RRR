@@ -1,4 +1,4 @@
-package com.webanimal.rrr.banzay
+package com.webanimal.rrr.ui.adapters
 
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
@@ -22,6 +22,8 @@ class ExampleStateAdapterWithFragments(fragmentManager: FragmentManager, lifecyc
     override fun getItemCount(): Int {
         return fragments.size
     }
+
+
 
     override fun createFragment(position: Int): Fragment {
         return fragments[position]

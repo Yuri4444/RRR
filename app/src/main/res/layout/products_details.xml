@@ -43,11 +43,7 @@
                     android:layout_marginRight="5dp"
                     android:layout_marginBottom="5dp"
                     android:layout_weight="1"
-                    android:text="Время обитания:
-                                  Величина:
-                                  Вес:
-                                  Открыт:
-                                  Значение:"
+                    android:text="@string/main_description"
                     android:textColor="#FFFFFF"
                     android:textStyle="bold" />
 
@@ -68,7 +64,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="300dp"
                 android:adjustViewBounds="true"
-                android:scaleType="centerCrop" />
+                android:scaleType="centerCrop"
+                android:transitionName="photoToAnimate" />
 
             <TextView
                 android:id="@+id/trias_first_description"

@@ -3,6 +3,8 @@
     <array name="preloaded_fonts" translatable="false">
         <item>@font/arbutus</item>
         <item>@font/archivo_black</item>
+        <item>@font/bowlby_one</item>
+        <item>@font/rammetto_one</item>
         <item>@font/russo_one</item>
     </array>
 </resources>

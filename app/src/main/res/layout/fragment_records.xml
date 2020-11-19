@@ -99,13 +99,6 @@
             android:layout_marginRight="10dp"
             android:text="@string/third_record"/>
 
-        <Button
-            android:id="@+id/back_to_first"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Вернутся назад" />
-
     </LinearLayout>
     <!--        Третий рекорд-->
 

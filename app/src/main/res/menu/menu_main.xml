@@ -34,6 +34,12 @@
             android:icon="@mipmap/ic_finds">
         </item>
 
+        <item
+            android:title="@string/tabs_favor"
+            android:id="@+id/favor"
+            android:icon="@mipmap/ic_favor">
+        </item>
+
     </group>
 
 </menu>
